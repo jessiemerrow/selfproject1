@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFTZai Documention</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand order-2 mr-auto ml-3 ml-lg-0" href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler order-1" type="button" data-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="order-3">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="btn custom-btn" href="#">Get It Now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+        <aside class="left-menu">
+            <nav>
+                <ul>
+                    <!-- Menu Title -->
+                    <li class="left-menu-title">
+                        <h6>
+                            <a href="#getting-started">Getting started</a>
+                        </h6>
+                    </li>
+
+                    <li class="left-menu-item">
+                        <a href="#introduction">
+                            <span>introduction</span>
+                        </a>
+                    </li>
+
+                    <li class="left-menu-item">
+                        <a href="#key-fatures">
+                            <span>Key Features</span>
+                        </a>
+                    </li>
+
+                    <li class="left-menu-item">
+                        <a href="#file-stricture">
+                            <span>folder structure</span>
+                        </a>
+                    </li>
+
+                    <li class="left-menu-item">
+                        <a href="#system-requirements">
+                            <span>system requirements</span>
+                        </a>
+                    </li>
+
+                    <!-- Menu Title -->
+                    <li class="left-menu-title">
+                        <h6>
+                            <a href="#how-to-install">How to install</a>
+                        </h6>
+                    </li>
+
+                    <li class="left-menu-item">
+                        <a href="#live-server">
+                            <span>Installation Steps</span>
+                        </a>
+                    </li>
+
+                    <li class="left-menu-title">
+                        <h6>
+                            <a href="#credentials">Credentials</a>
+                        </h6>
+                    </li>
+
+                    <!-- Menu Title -->
+                    <li class="left-menu-title">
+                        <h6>
+                            <a href="#user-menual-ov">Overview</a>
+                        </h6>
+                    </li>
+
+                    <li class="left-menu-item">
+                        <a href="#as-owner">
+                            <span>Front Part</span>
+                        </a>
+                    </li>
+
+                    <li class="left-menu-item">
+                        <a href="#user-menual">
+                            <span>Admin Part</span>
+                        </a>
+                    </li>
+
+                    <li class="left-menu-title">
+                        <h6>
+                            <a href="#coin-setup">Coin Setup</a>
+                        </h6>
+                    </li>
+
+                    <li class="left-menu-item">
+                        <a href="#add-coinpayments">
+                            <span>Configure Coinpayments</span>
+                        </a>
+                    </li>
+
+                    <li class="left-menu-item">
+                        <a href="#add-coin">
+                            <span>Add Coin</span>
+                        </a>
+                    </li>
+
+                    <li class="left-menu-item">
+                        <a href="#nft-config">
+                            <span>NFT Configuration</span>
+                        </a>
+                    </li>
+
+                    <li class="left-menu-title">
+                        <h6>
+                            <a href="#patient-module">How To</a>
+                        </h6>
+                    </li>
+
+                    <li class="left-menu-item">
+                        <a href="#patient-signup">
+                            <span>Upload Artwork</span>
+                        </a>
+                    </li>
+
+                    <li class="left-menu-item">
+                        <a href="#patient-login">
+                            <span>Deposit Coin</span>
+                        </a>
+                    </li>
+
+                    <li class="left-menu-item">
+                        <a href="#patient-dashboard">
+                            <span>Withdraw Coin</span>
+                        </a>
+                    </li>
+
+                    <li class="left-menu-item">
+                        <a href="#patient-profile">
+                            <span>Purchasing Artwork</span>
+                        </a>
+                    </li>
+
+                    <li class="left-menu-item">
+                        <a href="#patient-appointment">
+                            <span>Bid Artwork</span>
+                        </a>
+                    </li>
+
+                    <li class="left-menu-item">
+                        <a href="#resell-artwork">
+                            <span>Resell Artwork</span>
+                        </a>
+                    </li>
+
+                    <li class="left-menu-title">
+                        <h6>
+                            <a href="#how-to-admin">How To Admin</a>
+                        </h6>
+                    </li>
+
+                    <li class="left-menu-item">
+                        <a href="#setup-service-charges">
+                            <span>Setup Service Charges</span>
+                        </a>
+                    </li>
+
+                    <li class="left-menu-item">
+                        <a href="#check-earnings">
+                            <span>Check Earnings</span>
+                        </a>
+                    </li>
+
+                    <li class="left-menu-item">
+                        <a href="#add-artwork">
+                            <span>Add Artwork</span>
+                        </a>
+                    </li>
+
+                    <!-- Menu Title -->
+                    <li class="left-menu-title">
+                        <h6>
+                            <a href="#release-log">Thank you</a>
+                        </h6>
+                    </li>
+
+                    <li class="left-menu-item">
+                        <a href="#release-log">
+                            <span>release log</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <aside class="main-content-area">
+            <div class="main-content container-fluid">
+                <!-- ============== Big Title Section ============================ -->
+                <div class="mb-40 pb-40 border-bottom">
+                    <h3 id="getting-started" class="first-title">NFTZai - NFT Buy/Sell Marketplace Laravel Script</h3>
+
+                </div>
+
+                <!-- ============== Section ============================ -->
+                <section>
+                    <h4 id="introduction" class="second-title">introduction</h4>
+                    <p>
+                        NFTZai is a nft marketplace with <strong>selling artwork</strong>, <strong>purchasing artwork</strong>. It provides crypto deposit and withdraw system. It
+                        provides very nice user experience to use this website. A nice and super easy
+                        customizable admin panel is attached. It's a nice place to buy-sell artwork.
+                        <br>
+                        <br>
+                    </p>
+                </section>
+
+                <!-- ============== Section ============================ -->
+                <section>
+                    <h4 id="key-fatures" class="second-title">Key Features</h4>
+                    <ul class="right">
+                        <li>Easy <strong>installation</strong> process</li>
+                        <li>Fully <strong>responsive</strong> and <strong>dynamic</strong> admin dashboard</li>
+                        <li>Fully <strong>responsive</strong> and <strong>dynamic</strong> user dashboard</li>
+                        <li>Easy to signup & signin</li>
+                        <li>Forgot password</li>
+                        <li><strong>Selling and Reselling</strong> an artwork easily</li>
+                        <li><strong>Purchasing and Bid</strong> an artwork easily</li>
+                        <li><strong>Payment</strong> process by crypto wallet</li>
+                        <li>Easy to integrate <strong>coin</strong></li>
+                        <li>Good looking & user friendly <strong>front-end</strong></li>
+                        <li>Easy to manage site <strong>contents</strong></li>
+                        <li>Managing <strong>Users</strong></li>
+                        <li>Managing <strong>subscriptions</strong></li>
+                        <li>Send email to <strong>subscribers</strong></li>
+                        <li>Managing <strong>social media, contact</strong> etc.</li>
+                    </ul>
+                </section>
+
+                <!-- ============== Section ============================ -->
+                <section>
+                    <h4 id="file-stricture" class="second-title">folder structure</h4>
+                    <ul class="folder">
+                        <li>
+                            'nftzai' is bundled with folders:
+                            <ul>
+                                <li>main</li>
+                                <li>documentation</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+
+
+                <!-- ============== Section ============================ -->
+                <section>
+                    <h4 id="system-requirements" class="second-title">system requirements</h4>
+                    <p>The application has a few system requirements, so you will need to make sure your server meets
+                        the following requirements: </p>
+                    <ul class="right">
+                        <li>Laravel >=7.0</li>
+                        <li>PHP >= 7.3.0,</li>
+                        <li>MySQL 5.7+</li>
+                        <li>Horizon</li>
+                        <li>Redis</li>
+                        <li>Intl PHP Extension</li>
+                        <li>OpenSSL PHP Extension</li>
+                        <li>PDO PHP Extension</li>
+                        <li>Mbstring PHP Extension</li>
+                        <li>Tokenizer PHP Extension</li>
+                        <li>BCMAth PHP Extension</li>
+                        <li>XML PHP Extension</li>
+                        <li>Ctype PHP Extension</li>
+                        <li>JSON PHP Extension</li>
+                        <li>cURL PHP Extension</li>
+                        <li>Fileinfo PHP Extension</li>
+                        <li>GD PHP Extension</li>
+                        <li>ZIP PHP Extension</li>
+                    </ul>
+                    <p>PHP INI Requirement:</p>
+                    <ul class="right">
+                        <li>allow_url_fopen</li>
+                    </ul>
+                </section>
+
+                <!-- ============== Big Title Section ============================ -->
+                <div class="mb-40 pb-40 border-bottom">
+                    <h3 id="how-to-install" class="first-title">How to install</h3>
+                </div>
+
+                <!-- ============== Section ============================ -->
+                <section>
+                    <h4 id="live-server" class="second-title">Installation Steps</h4>
+                    <iframe width="580" height="376" src="https://www.youtube.com/embed/JczRZFDnT2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <br>
+                    <br>
+                    <p>
+                        After you purchase <code>NFTZai</code>, you will get a zip file. Extracting the zip file you will get an <code>main.zip</code> file. You have to upload <code>main.zip</code> in your server and extract it.
+                    </p>
+                    <p>
+                        <strong>follow the instruction below</strong>
+                    </p>
+
+                    <ul class="right">
+                        <li>
+                            <b>If you upload it in <code>public_html</code> folder, then visit <code>your_domain_name.com</code> in browser</b>
+                        </li>
+                        <li>
+                            <b>If you upload it in a folder in <code>public_html</code> folder, then visit <code>your_domain_name.com/folder_name</code> in browser. </b>
+                        </li>
+                        <li>
+                            <b>If you upload it in your created <code>subdomain</code> folder, then visit <code>your_subdomain_name.com</code> in browser. </b>
+                        </li>
+                        <li>
+                            <b>If you upload it in a <code>folder</code> in your created <code>subdomain</code> folder, then visit <code>your_subdomain_name.com/folder_name</code> in browser. </b>
+                        </li>
+                        <li>
+                            <b>Create <code>database</code>. </b>
+                        </li>
+
+                    </ul>
+                </section>
+
+                <!-- ============== Section ============================ -->
+                <section>
+                    <ul class="right">
+                        <li>After you enter your website URL in your browser you will see a welcome page of <strong> Installer</strong>. </li>
+                        <li>
+                            You will be shown a list of extensions required to run this software. If all the extensions have <strong>green "Ok" status</strong>. If any extension has <strong>red "Error" status</strong>, then you need  to install the extension in your server first.
+                            <br><br>
+                            <img src="images/install/wizard/12.png" alt="" class="mw-mh-580-560"> <br> <br>
+                        </li>
+                        <li>
+                            You will be shown a list of folder locations. If all the folder has <strong>green "Ok" status</strong>. If any folder has <strong>red "Error" status</strong>, then you need to change the permission of the folder first.
+                            <br>
+                            If the scenario is like the <strong>picture</strong> below, then you will have to give permissions to all those folders by accessing the directories. To do so-
+                            <br><br>
+                            <img src="images/install/wizard/13.png" alt="" class="mw-mh-580-560"> <br> <br>
+                            <ul class="right">
+                                <li>
+                                    Go to server, file path : <strong>/</strong>. You will see a folder named “routes” and right click over it. Some options will pop-up on your screen. Select “Change Permissions”. A dialog box will be in your screen where you will see the permission is “755” but our required permission is “777”.  To get our required permission click check on <strong>Owner, Group, Others</strong> for <strong>Read, Write, Exec</strong>. Then click on “Change”.
+                                    <br>
+                                    <img src="images/install/wizard/14.png" alt="" class="mw-mh-580-560"> <br> <br>
+                                </li>
+                                <li>Go to server, file path <strong>/</strong>. You will see a folder named “resources” and right click over it. Follow the previous procedure to change permission. </li>
+                                <li>Go to server, file path <strong>/</strong>. You will see a folder named “public” and right click over it. Follow the previous procedure to change permission. </li>
+                                <li>Go to server, file path <strong>/</strong>. You will see a folder named “storage” and right click over it. Follow the previous procedure to change permission. </li>
+                                <li>Go to server, file path <strong>/</strong>. You will see a file named “.env” and right click over it. Follow the previous procedure to change permission. </li>
+                            </ul>
+                        </li>
+                        <li> If all the extension and permission requirements are fulfilled then the page will show this interface- <br><br>
+                            <img src="images/install/wizard/1.png" alt="" class="mw-mh-580-560"> <br> <br>
+                        </li>
+                        <li> If you want to install all the configuration manually then click selected area. <br><br>
+                            <img src="images/install/wizard/2.png" alt="" class="mw-mh-580-560"> <br> <br>
+                        </li>
+                        <li>If you want automate installation then click <code>Next</code>.</li>
+                        <li> Input your <code>App Name</code> like 'NFTZai' & <code>App URL</code> like 'http://yourdomain.com'. <br><br>
+                            <img src="images/install/wizard/3.png" alt="" class="mw-mh-580-560"> <br> <br>
+                        </li>
+                        <li>
+                            Then fillup your <code>database connection</code> like <code>database host</code>, <code>database user</code>, <code>database name</code> & <code>database password</code>. <br><br>
+                            <img src="images/install/wizard/7.png" alt="" class="mw-mh-580-560"> <br> <br>
+                        </li>
+                        <li>
+                            If you need to connect with mail server then input <code>SMTP</code> field. <br><br>
+                            <img src="images/install/wizard/8.png" alt="" class="mw-mh-580-560"> <br> <br>
+                        </li>
+                        <li>
+                            By default puchase code is: <code>NHLE-L6MI-4GE4-ETEV</code>. No need to change it. <br><br>
+                            <img src="images/install/wizard/9.png" alt="" class="mw-mh-580-560"> <br> <br>
+                        </li>
+                        <li>
+                            Click to the <code>Next</code>. 
+                        </li>
+                        <li>
+                            If you fill all the mandatory field and input the right credentials then you will redirect to the home page automaticly.
+                        </li>
+                      
+                    </ul>
+                </section>
+
+                <section>
+                    <h4 id="credentials" class="second-title">Credentials for Demo</h4>
+
+                    <ul class="right">
+                        <li>
+                            For admin:  email <code>admin@email.com</code>, password <code>123456</code>.
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- ============== Big Title Section ============================ -->
+                <!-- <div class="mb-40 pb-40 border-bottom">
+                    <h3 id="log-in" class="first-title">Log in</h3>
+                </div> -->
+
+                <!-- ============== Big Title Section ============================ -->
+                <div class="mb-40 pb-40 border-bottom">
+                    <h3 id="user-menual-ov" class="first-title">Overview</h3>
+                </div>
+
+                <!-- ============== Section ============================ -->
+                <section>
+                    <h4 id="as-owner" class="second-title">Overview -  <small>Front Side</small></h4>
+                    <p>In the front page, you can see latest artwork, top sellers. There are a lot of
+                        sections. Discover section is mainly store of all artworks. How it works is the managing page of Frequently Asked Questions. News section is the content page of crypto and nft marketplace news which is uploaded by admin.
+
+                    </p>
+                    <ul>
+                        <li>
+                            <h4 id="as-owner" class="second-title">Home <small>Front Side</small></h4>
+                            <img src="images/index/1.png" class="mw-mh-580-560" alt=""> <br> <br>
+                        </li>
+                    </ul>   
+                    <ul>
+                        <li>
+                            <h4 id="as-owner" class="second-title">Signin <small>Front Side</small></h4>
+                            <p>Signin page</p>
+                        </li>
+                        <li>
+                            <img src="images/index/login.png" class="mw-mh-580-560" alt=""> <br> <br>
+                        </li>
+                        <li>
+                            <h4 id="as-owner" class="second-title">Signup <small>Front Side</small></h4>
+                            <p>Signup page</p>
+                        </li>
+                        <li>
+                            <img src="images/index/signup.png" class="mw-mh-580-560" alt=""> <br> <br>
+                        </li>
+                        <li>
+                            <h4 id="as-owner" class="second-title">Discover <small>Front Side</small></h4>
+                            <p>Discover page</p>
+                        </li>
+                        <li>
+                            <img src="images/index/discover.png" class="mw-mh-580-560" alt=""> <br> <br>
+                        </li>
+                        <li>
+                            <h4 id="as-owner" class="second-title">How It Works <small>Front Side</small></h4>
+                            <p>How It Works page</p>
+                        </li>
+                        <li>
+                            <img src="images/index/how-it-works.png" class="mw-mh-580-560" alt=""> <br> <br>
+                        </li>
+                        <li>
+                            <h4 id="as-owner" class="second-title">News <small>Front Side</small></h4>
+                            <p>News page</p>
+                        </li>
+                        <li>
+                            <img src="images/index/news.png" class="mw-mh-580-560" alt=""> <br> <br>
+                        </li>
+                       
+                    </ul>
+                </section>
+                <!-- ============== Section ============================ -->
+                <section>
+                    <h4 id="as-owner" class="second-title">Site Overview <small>User Dashboard</small></h4>
+                    <p>To access the user dashboard user must have to login first. In the user dashboard, an user will be able to deposit, withdraw, sell and buy.
+                    </p>
+                    <ul>
+                        <li>
+                            <img src="images/index/userdashboard.png" class="mw-mh-580-560" alt=""> <br> <br>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4 id="as-owner" class="second-title">Site Overview <small>My Wallets</small></h4>
+                    <p>My wallets is the wallet page of an user.</p>
+                    <ul>
+                        <li>
+                            <img src="images/index/my-wallets.png" class="mw-mh-580-560" alt=""> <br> <br>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4 id="as-owner" class="second-title">Site Overview <small>My Artworks</small></h4>
+                    <p>My artworks is mainly a quick access user's uploaded artworks.</p>
+                    <ul>
+                        <li>
+                            <img src="images/index/my-artworks.png" class="mw-mh-580-560" alt=""> <br> <br>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h4 id="as-owner" class="second-title">Site Overview <small>My Earnings </small></h4>
+                    <p>This section is displayed all earnings of a seller.</p>
+                    <ul>
+                        <li>
+                            <img src="images/index/my-earnings.png" class="mw-mh-580-560" alt=""> <br> <br>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h4 id="as-owner" class="second-title">Site Overview <small>Deposit History</small></h4>
+                    <p>User can see his coin deposit.</p>
+                    <ul>
+                        <li>
+                            <img src="images/index/deposit-history.png" class="mw-mh-580-560" alt=""> <br> <br>
+                        </li>
+                    </ul>
+                </section>
+                <!-- ============== Section ============================ -->
+                <section>
+                    <h4 id="as-owner" class="second-title">Site Overview <small>Withdraw History</small></h4>
+                    <p>This section shows coin withdraw history.
+                    </p>
+                    <ul>
+                        <li>
+                            <img src="images/index/withdraw-history.png" class="mw-mh-580-560" alt=""> <br> <br>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4 id="as-owner" class="second-title">Site Overview <small>Purchase</small></h4>
+                    <p>This section shows all the fixed purchase history of the user.
+                    </p>
+                    <ul>
+                        <li>
+                            <img src="images/index/purchase.png" class="mw-mh-580-560" alt=""> <br> <br>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4 id="as-owner" class="second-title">Site Overview <small>Bid</small></h4>
+                    <p>This section shows all the bidding history of the user.
+                    </p>
+                    <ul>
+                        <li>
+                            <img src="images/index/bids.png" class="mw-mh-580-560" alt=""> <br> <br>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4 id="as-owner" class="second-title">Site Overview <small>Profile</small></h4>
+                    <p>User can edit his/her profile info from here.
+                    </p>
+                    <ul>
+                        <li>
+                            <img src="images/index/profile.png" class="mw-mh-580-560" alt=""> <br> <br>
+                        </li>
+                    </ul>
+                </section>
+
+
+                <!-- ============== Section ============================ -->
+                <section>
+                    <h4 id="user-menual" class="second-title">Overview <small>Admin part</small></h4>
+                    <ul>
+                        <li>Goto login </li>
+                        <li>email: <code>admin@email.com</code> and password: <code>123456</code></li>
+
+                    </ul>
+                    <p>Admin can manage full platform and get all the access and earnings.</p>
+
+                    <br>
+                    <img src="images/admin/dashboard.png" alt="" class="img-responsive mw-mh-580-560">
+                    <br><br>
+
+                    <img src="images/admin/users.png" alt="" class="img-responsive mw-mh-580-560">
+                    <br>
+                    <p>You can manage users.</p>
+                    <br><br>
+                    <img src="images/admin/coin.png" alt="" class="img-responsive mw-mh-580-560">
+                    <br><br>
+                    <p>You can add coins and edit coins.</p>
+                    <br> <br>
+                    <img src="images/admin/wallets.png" alt="" class="img-responsive mw-mh-580-560">
+                    <br> <br>
+                    <p>You can see all users wallet and balance. </p>
+                    <br> <br>
+                    <img src="images/admin/deposit.png" alt="" class="img-responsive mw-mh-580-560">
+                    <br> <br>
+                    <p>You can see all deposits of a user and search particular user. </p>
+                    <img src="images/admin/withdraw.png" alt="" class="img-responsive mw-mh-580-560">
+                    <br> <br>
+                    <p>You can see all withdraws of a user and search particular user and manage withdraw. </p>
+                    <img src="images/admin/all-transactions.png" alt="" class="img-responsive mw-mh-580-560">
+                    <br> <br>
+                    <p>You can see all transactions and earnings. </p>
+                    <img src="images/admin/service-charge.png" alt="" class="img-responsive mw-mh-580-560">
+                    <br> <br>
+                    <p>You can add/edit service charge for buying and selling a product. You can manage fixed service charge or percentage wise service charge. </p>
+                    <img src="images/admin/category.png" alt="" class="img-responsive mw-mh-580-560">
+                    <br> <br>
+                    <p>You can add, edit, delete a category of an artwork. </p>
+                    <img src="images/admin/artwork.png" alt="" class="img-responsive mw-mh-580-560">
+                    <br> <br>
+                    <p>You can check all artworks, accept artworks and cancel artworks. </p>
+                    <img src="images/admin/contact.png" alt="" class="img-responsive mw-mh-580-560">
+                    <br> <br>
+                    <p>You can see all contact list. </p>
+                    <img src="images/admin/subscriber.png" alt="" class="img-responsive mw-mh-580-560">
+                    <br> <br>
+                    <p>You can see all subscriber list. </p>
+                    <img src="images/admin/news.png" alt="" class="img-responsive mw-mh-580-560">
+                    <br> <br>
+                    <p>You can add, edit and delete a news. </p>
+                    <img src="images/admin/heading.png" alt="" class="img-responsive mw-mh-580-560">
+                    <br> <br>
+                    <p>You can change heading of FAQ and change icon. </p>
+                    <img src="images/admin/faq.png" alt="" class="img-responsive mw-mh-580-560">
+                    <br> <br>
+                    <p>You can add, edit, delete of a FAQ content. </p>
+                    <img src="images/admin/general.png" alt="" class="img-responsive mw-mh-580-560">
+                    <br> <br>
+                    <p>You can change logo, favicon, dashboard image, email settings etc. </p>
+                    <img src="images/admin/slider-contents.png" alt="" class="img-responsive mw-mh-580-560">
+                    <br> <br>
+                    <p>You can update slider contents. </p>
+                    <img src="images/admin/contents.png" alt="" class="img-responsive mw-mh-580-560">
+                    <br> <br>
+                    <p>You can update all contents of the site. </p>
+                    <img src="images/admin/counters.png" alt="" class="img-responsive mw-mh-580-560">
+                    <br> <br>
+                    <p>You can update counter section of the application. </p>
+                    <img src="images/admin/payment.png" alt="" class="img-responsive mw-mh-580-560">
+                    <br> <br>
+                    <p>By default, we are providing <code>Coinpayments</code> API for payments. We can add all the crypto payment system by clients required. </p>
+                    <img src="images/admin/withdraw-limit.png" alt="" class="img-responsive mw-mh-580-560">
+                    <br> <br>
+                    <p>Admin can limit withdraw value. So that a user can not withdraw all the amounts </p>
+                    <img src="images/admin/coin-api.png" alt="" class="img-responsive mw-mh-580-560">
+                    <br> <br>
+                    <p>You can update your Coinpayment API credential.  </p>
+                    <br> <br>
+                    In the end all the options like add doctor slot and everything is there.
+                </section>
+
+                <div class="mb-40 pb-40 border-bottom">
+                    <h3 id="coin-setup" class="first-title">Coin Setup</h3>
+                </div>
+
+                <section>
+                    <h4 id="add-coinpayments" class="second-title">How To Configure CoinPayments</h4>
+
+                    <ul class="right">
+                        <li>
+                            Go to <code>.env</code> file
+                        </li>
+                        <li>
+                            add your CoinPayment credential like <code>COIN_PAYMENT_PUBLIC_KEY</code>, <code>COIN_PAYMENT_PRIVET_KEY</code>, <code>COIN_PAYMENT_DEPOSIT_CALLBACK_URL</code>, <code>COIN_PAYMENT_WITHDRAWAL_CALLBACK_URL</code>. <br><br>
+                            <img src="images/how-to/coinpayment-env.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4 id="add-coin" class="second-title">How to add a new coin</h4>
+
+                    <ul class="right">
+                        <li>Go to <code>Coin Management/Coin List</code></li>
+                        <li>
+                            Click to the add button <br><br>
+                            <img src="images/how-to/coin-add.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                        <li>
+                            Fill the required field (e.g. Coin short name will always valid coin and convert into uppercase.) <br><br>
+                            <img src="images/how-to/coin-store.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                        <li>Click to the <code>Add Coin</code></li>
+                        <li>After clicking <code>Add Coin</code>, go to <code>Coin Management/Coin API</code></li>
+                        <li>
+                            Select <code>CoinPaymentApiService</code> <br><br>
+                            <img src="images/how-to/coin-api-settings.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4 id="nft-config" class="second-title">NFT configuration</h4>
+
+                    <ul class="right">
+                        <li>You have to configure NFT related API like <code>Token Generate</code>, <code>Transfer Token</code> etc.</li>
+                        <li>
+                            So you must have <code>Ethereum Node</code> with <code>Gas Fee</code>.
+                            <br>
+                            <small class="text-success">N.B: We don't have any node support in the product but you can easily integrate it. We will take extra charge for node setup or any other node related support.</small>
+                        </li>
+                        <li>
+                            We can add all kind of coin if you provide <code>Node</code> or <code>API</code> or <code>RPC</code>.
+                            <br>
+                            <small>N.B: For better maintaining of all kind of node or related you need a node expert.</small>
+                        </li>
+                    </ul>
+                </section>
+
+                <div class="mb-40 pb-40 border-bottom">
+                    <h3 id="patient-module" class="first-title">How to upload an artwork</h3>
+                </div>
+
+                <section>
+                    <h4 id="patient-signup" class="second-title">How to upload an artwork</h4>
+
+                    <ul class="right">
+                        <li>
+                            After Login as a user, click <code>Upload</code> button. This will redirected to the upload pages. <br><br>
+                            <img src="images/how-to/upload.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+
+                        <li>Fill necessary fields</li>
+                        <li>
+                            You can check preview. <br><br>
+                            <img src="images/how-to/preview.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                        <li>After all field is filled then click to <code>Create Item</code>.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4 id="patient-login" class="second-title">How to deposit coin</h4>
+
+                    <ul class="right">
+                        <li>Go to <code>My Wallet</code></li>
+                        <li>
+                            Click to the deposit icon <br><br>
+                            <img src="images/how-to/deposit-icon.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                        <li>
+                            a popup will show to the screen <br><br>
+                            <img src="images/how-to/deposit-popup.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                        <li>
+                            This will provide an address. By default, we are providing coinpayments api. You will give the address to the coinpayments and give necessary amount to deposit your web application. For details of coinpayments youcan see
+                            <a href="https://www.coinpayments.net/">here</a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4 id="patient-dashboard" class="second-title">How to withdraw coin</h4>
+
+                    <ul class="right">
+                        <li>Go to <code>My Wallet</code></li>
+                        <li>
+                            Click to the withdraw icon <br><br>
+                            <img src="images/how-to/withdraw-icon.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                        <li>
+                            a popup will show to the screen <br><br>
+                            <img src="images/how-to/withdraw-popup.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                        <li>
+                            Put your address and amount. and click to submit.
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4 id="patient-profile" class="second-title">How to purchasing an artwork</h4>
+
+                    <ul class="right">
+                        <li>
+                            Click to the <code>Discover</code> menu. this will show all the artworks which is active now in the marketplace. click to the <code>Purchase Now</code> button <br><br>
+                            <img src="images/how-to/discover.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                        <li>
+                            This will show product details <br><br>
+                            <img src="images/how-to/product-purchase-details.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                        <li>
+                            Click to the Purchase. This will show a popup modal. <br><br>
+                            <img src="images/how-to/purchase-modal.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                        <li>Select coin</li>
+                        <li>Click to the <code>I Understand & Continue</code> button</li>
+                        <li>Of everything okay this will redirected to the <code>Purchase History</code></li>
+
+                    </ul>
+                </section>
+
+                <section>
+                    <h4 id="patient-appointment" class="second-title">How to bid an artwork</h4>
+
+                    <ul class="right">
+                        <li>
+                            Click to the <code>Discover</code> menu. this will show all the artworks which is active now in the marketplace. click to the <code>Place a Bid</code> button <br><br>
+                            <img src="images/how-to/discover.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                        <li>
+                            This will show product details <br><br>
+                            <img src="images/how-to/product-bid-details.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                        <li>
+                            Click to the Place Bid. This will show a popup modal. <br><br>
+                            <img src="images/how-to/bid-checkout.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                        <li>Put amount and select coin</li>
+                        <li>Click to the <code>I Understand & Continue</code> button</li>
+                        <li>Of everything okay this will redirected to the <code>Bidding History</code></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4 id="resell-artwork" class="second-title">How to resell artwork</h4>
+
+                    <ul class="right">
+                        <li>After purchasing/bid win of an artwork, user can see his purchase artwork from Purchase and bid artwork from Bid panel which is show in the user panel sidebar.</li>
+                        <li>
+                            In the purchase and bid panel you can see resell icon in the action column <br><br>
+                            <img src="images/how-to/resell-artwork.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                        <li>
+                            After clicking resell icon, a modal will show up. Select a type. <br><br>
+                            <img src="images/how-to/resell-modal-type.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                        <li>
+                            Set your price/minimum-maximum bid amount. <br><br>
+                            <img src="images/how-to/resell-modal-fixed.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                            <img src="images/how-to/resell-modal-bid.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                        <li>
+                            Click to submit. This will give a success message. <br><br>
+                            <img src="images/how-to/resell-success.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                        <li>After approving from the admin your reselling artwork is available in the platform.</li>
+                        <li>
+                            Once it will approve you can see the artwork as you owner. <br><br>
+                            <img src="images/how-to/resell-owner.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                        <li>
+                            You can see also all the transfer history by clicking <code>Transfer History</code> <br><br>
+                            <img src="images/how-to/resell-transfer-history.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                    </ul>
+                </section>
+
+                <div class="mb-40 pb-40 border-bottom">
+                    <h3 id="how-to-admin" class="first-title">How to admin set service charges</h3>
+                </div>
+
+                <section>
+                    <h4 id="setup-service-charges" class="second-title">How to admin set service charges</h4>
+
+                    <ul class="right">
+                        <li>
+                            Admin can set service charges from <code>Transactions/Service Charges</code>. <br><br>
+                            <img src="images/how-to-admin/set-service-charge.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4 id="check-earnings" class="second-title">How to admin check earnings</h4>
+
+                    <ul class="right">
+                        <li>
+                            Go to <code>Transaction/All Transactions</code>
+                        </li>
+                        <li>Here you will see all the transaction of the platform.</li>
+                        <li>
+                            Here you can see all the earnings of the platform from <code>Platform Earnings</code> column. <br><br>
+                            <img src="images/how-to-admin/check-earnings.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4 id="add-artwork" class="second-title">How to admin add artwork</h4>
+
+                    <ul class="right">
+                        <li>
+                            Go to <code>Artwork</code> section
+                        </li>
+                        <li>Click to the artwork request</li>
+                        <li>If there is uploaded artwork from the creator, it will appear.</li>
+                        <li>
+                            By clicking <code>Approve Request</code>, the artwork will public to the platform for buying. <br><br>
+                            <img src="images/how-to-admin/add-artwork.png" alt="" class="img-responsive mw-mh-580-560"><br><br>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- ============== Big Title Section ============================ -->
+                <div class="mb-40 pb-40">
+                    <h3 id="release-log" class="first-title">thank you</h3>
+                    <p>
+                        Again, thank you for purchasing zaitors. If you need some help, or support please use email or
+                        contact form via codecanyon <a href="https://codecanyon.net/user/zainiktheme" target="_blank">Profile site</a> <br>
+                        Hope you happy with the zaitors, all the best with your business.
+                    </p>
+                    <h3 class="second-title">release log</h3>
+                    <div class="code-block">
+                        Version 1.0.0 (14th December 2021)
+                    </div>
+                    <p>&copy;
+                        <script>var d = new Date(); document.write(d.getFullYear());</script> <a href="#"> NFTZai</a>
+                    </p>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <script src="assets/js/jquery.2.2.4.min.js"></script>
+    <script src="assets/js/jquery.nicescroll.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
